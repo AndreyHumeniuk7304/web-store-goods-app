@@ -34,12 +34,12 @@ const App = () => {
     <>
       <header className="header">
         <Link to="/" className="logo-link">
-          <img className="logo-link_img" src="./logo.png" alt="logo" />
+          <img className="logo-link_img" src="./images/logo.png" alt="logo" />
         </Link>
         <div className="header_navigaton">
           <div className="cart">
             <Link to="/cart" className="link cart-link">
-              <img className="cart_img" src="./cart.png" alt="cart" />
+              <img className="cart_img" src="./images/cart.png" alt="cart" />
               <span className="cart-length">{productsCart.length}</span>
             </Link>
           </div>
@@ -47,7 +47,7 @@ const App = () => {
             <Link to="/favourites" className="link favourites-link">
               <img
                 className="favourites_img"
-                src="./favourite.png"
+                src="./images/favourite.png"
                 alt="favourites"
               />
               <span className="favourites-length">{favourites.length}</span>
