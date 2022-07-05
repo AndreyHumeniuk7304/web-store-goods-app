@@ -1,0 +1,53 @@
+.monitor_box {
+  border: 1px solid rgba(178, 199, 198, 0.644);
+  width: 270px;
+  justify-content: center;
+  position: relative;
+
+  .monitor_img-box {
+    width: 100%;
+    height: 200px;
+  }
+
+  .monitor_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .monitor_description {
+    padding: 20px;
+  }
+
+  .monitor_name {
+    font-size: 13px;
+  }
+
+  .monitor_code {
+    font-size: 12px;
+    display: block;
+    text-align: right;
+  }
+
+  .monitor_price {
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 60%;
+  }
+
+  .btn__add-to-cart {
+    color: antiquewhite;
+    padding: 5px;
+    background-color: rgba(84, 85, 85, 0.644);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: 0.3s;
+
+    &:hover {
+      border: 1px solid rgb(61, 68, 66);
+    }
+  }
+
+  .add-to-favourites_img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.cart-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 20px;
+}
+
+.btn_delete_from_cart {
+  position: absolute;
+  top: -20px;
+  right: -15px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  width: 20px;
+}
+
+.delete_from_cart_img {
+  width: 100%;
+}

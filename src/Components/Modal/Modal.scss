@@ -1,0 +1,60 @@
+.modal-window__overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal-content {
+    border-radius: 12px;
+    position: relative;
+    max-width: 350px;
+
+    &__title {
+      margin: 0;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      color: #fff;
+      background-color: rgb(41, 185, 113);
+    }
+    &__close-btn {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .main-content {
+      padding: 20px;
+      background-color: rgb(42, 165, 104);
+      &__text {
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+    }
+    .footer-btns {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding-top: 10px;
+
+      // .btn {
+      //   width: 50px;
+      // }
+
+      // .btn_cancel {
+      //   background-color: rgba(230, 84, 40, 0.24);
+      // }
+
+      // .btn_ok {
+      //   background-color: rgba(61, 167, 61, 0.26);
+      // }
+    }
+  }
+}
