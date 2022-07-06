@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import { showModal } from "../../store/modal/actions";
 import { setFavourites } from "../../store/favourites/actions";
+import { getProducts } from "../../../public/images";
 
 const ProductCard = ({
   // handleClickModalAction,
@@ -33,14 +34,14 @@ const ProductCard = ({
     ? (favouriteStar = (
         <img
           className="add-to-favourites_img"
-          src="../../../images/favourites-filled-star-symbol.png"
+          src="../../../public/images/favourites-filled-star-symbol.png"
           alt="remove into favourites"
         />
       ))
     : (favouriteStar = (
         <img
           className="add-to-favourites_img"
-          src="../../../images/star.png"
+          src="../../../star.png"
           // src="/images./star.png"
           alt="add to favourites"
         />
