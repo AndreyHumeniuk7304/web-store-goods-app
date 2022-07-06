@@ -18,7 +18,7 @@ const ProductCart = ({ product, getCurrentProduct }) => {
         text={
           <img
             className="delete_from_cart_img"
-            src="../../../../images/delete.png"
+            src="images/delete.png"
             alt="delete"
           />
         }
