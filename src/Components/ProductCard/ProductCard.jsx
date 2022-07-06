@@ -40,7 +40,7 @@ const ProductCard = ({
     : (favouriteStar = (
         <img
           className="add-to-favourites_img"
-          src="./images/star.png"
+          src="../../../images./star.png"
           alt="add to favourites"
         />
       ));
