@@ -39,7 +39,7 @@ const App = () => {
         <div className="header_navigaton">
           <div className="cart">
             <Link to="/cart" className="link cart-link">
-              <img className="cart_img" src="/images/cart.png" alt="cart" />
+              <img className="cart_img" src="./images/cart.png" alt="cart" />
               <span className="cart-length">{productsCart.length}</span>
             </Link>
           </div>
