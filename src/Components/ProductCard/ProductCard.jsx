@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import { showModal } from "../../store/modal/actions";
 import { setFavourites } from "../../store/favourites/actions";
-import { getProducts } from "../../../public/images";
 
 const ProductCard = ({
   // handleClickModalAction,
