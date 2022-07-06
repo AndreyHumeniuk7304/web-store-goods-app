@@ -33,14 +33,14 @@ const ProductCard = ({
     ? (favouriteStar = (
         <img
           className="add-to-favourites_img"
-          src="../../../../images/favourites-filled-star-symbol.png"
+          src="../images/favourites-filled-star-symbol.png"
           alt="remove into favourites"
         />
       ))
     : (favouriteStar = (
         <img
           className="add-to-favourites_img"
-          src="../../../../images/star.png"
+          src="../images/star.png"
           alt="add to favourites"
         />
       ));
